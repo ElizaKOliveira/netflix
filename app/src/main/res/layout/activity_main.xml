@@ -243,8 +243,9 @@
         android:layout_marginTop="100dp"
         android:text="@string/eliza_oliveira"
         android:textColor="@color/menu_navegacao"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        tools:layout_editor_absoluteX="165dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
